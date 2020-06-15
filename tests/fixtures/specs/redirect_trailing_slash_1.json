@@ -1,0 +1,13 @@
+{
+	"in": {
+		"method": "GET",
+		"url": "http://localhost:8080/static/"
+	},
+	"out": {
+		"status_code": 301,
+		"body": "<a href=\"/static\">Moved Permanently</a>.\n\n",
+		"header": {
+			"content-type": ["text/html; charset=utf-8"]
+		}
+	}
+}
